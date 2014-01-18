@@ -1,115 +1,115 @@
 module.exports = nativeDescription: "čeština", englishDescription: "Czech", translation:
   common:
-    loading: "Loading..."
-#    saving: "Saving..."
-#    sending: "Sending..."
+    loading: "Načítání..."
+    saving: "Ukládání..."
+    sending: "Odesílání..."
 
-#  modal:
-#    close: "Close"
-#    okay: "Okay"
+  modal:
+    close: "Zavřít"
+    okay: "Dobře"
 
-#  not_found:
-#    page_not_found: "Page not found"
+  not_found:
+    page_not_found: "Stránka nenalezena"
 
-#  nav:
-#    sign_up: "Create Account"
-#    log_in: "Log In"
-#    log_out: "Log Out"
-#    play: "Levels"
-#    editor: "Editor"
-#    blog: "Blog"
-#    forum: "Forum"
-#    admin: "Admin"
-#    home: "Home"
-#    contribute: "Contribute"
-#    legal: "Legal"
-#    about: "About"
-#    contact: "Contact"
-#    twitter_follow: "Follow"
-#    employers: "Employers"
+  nav:
+    sign_up: "Vytvořit účet"
+    log_in: "Přihlášení"
+    log_out: "Odhlášení"
+    play: "Úrovně"
+    editor: "Editor"
+    blog: "Blog"
+    forum: "Fórum"
+    admin: "Admin"
+    home: "Domů"
+    contribute: "Přispějte"
+    legal: "Práva"
+    about: "O nás"
+    contact: "Kontakt"
+    twitter_follow: "Sledovat"
+    employers: "Zaměstnanci"
 
-#  forms:
-#    name: "Name"
-#    email: "Email"
-#    message: "Message"
-#    cancel: "Cancel"
-#    save: "Save"
+  forms:
+    name: "Jméno"
+    email: "Email"
+    message: "Zpráva"
+    cancel: "Zavřít"
+    save: "Uložit"
 
-#  versions:
-#    save_version_title: "Save New Version"
-#    commit_message: "Commit Message"
-#    new_major_version: "New Major Version"
-#    cla_prefix: "To save changes, first you must agree to our"
-#    cla_url: "CLA"
-#    cla_suffix: "."
-#    cla_agree: "I AGREE"
+  versions:
+    save_version_title: "Uložení nové verze"
+    commit_message: "Commitovat zprávu"
+    new_major_version: "Nová hlavní verze"
+    cla_prefix: "Chcete-li uložit změny, musíte nejprve souhlasit s naší"
+    cla_url: "CLA"
+    cla_suffix: "."
+    cla_agree: "SOUHLASÍM"
 
-#  login:
-#    login_modal_title: "Log In"
-#    log_in: "Log In"
-#    sign_up: "create new account"
-#    or: ", or "
-#    recover: "recover account"
+  login:
+    login_modal_title: "Přihlášení"
+    log_in: "Přihlásit se"
+    sign_up: "vytvořit nový účet"
+    or: ", nebo "
+    recover: "odeslat nové heslo"
 
-#  recover:
-#    recover_account_title: "Recover Account"
-#    send_password: "Send Recovery Password"
+  recover:
+    recover_account_title: "Odeslání nového hesla"
+    send_password: "Odeslat heslo"
 
-#  signup:
-#    create_account_title: "Create Account to Save Progress"
-#    description: "It's free. Just need a couple things and you'll be good to go:"
-#    email_announcements: "Receive announcements by email"
-#    coppa: "13+ or non-USA "
-#    coppa_why: "(Why?)"
-#    creating: "Creating Account..."
-#    sign_up: "Sign Up"
-#    or: "or "
-#    log_in: "log in with password"
+  signup:
+    create_account_title: "Vytvoření účtu"
+    description: "Vše je zdarma. Stačí jenom vyplnit formulář a budete moct pokračovat:"
+    email_announcements: "Odebírat novinky a oznámení"
+    coppa: "13+ nebo nežít v USA "
+    coppa_why: "(Proč?)"
+    creating: "Vytváření účtu..."
+    sign_up: "Zaregistrovat"
+    or: "nebo "
+    log_in: "přihlásit se"
 
-#  home:
-#    slogan: "Learn to Code JavaScript by Playing a Game"
-#    no_ie: "CodeCombat does not run in Internet Explorer 9 or older. Sorry!"
-#    no_mobile: "CodeCombat wasn't designed for mobile devices and may not work!"
-#    play: "Play"
+  home:
+    slogan: "Nauč se JavaScript během hraní hry"
+    no_ie: "CodeCombat nefunguje v prohlížeči Internet Explorer 9 nebo starší verze. Promiňte!"
+    no_mobile: "CodeCombat nebyl navržen pro mobilní zařízení a je možné, že nebude pracovat správně!"
+    play: "Hrát"
 
-#  play:
-#    choose_your_level: "Choose Your Level"
-#    adventurer_prefix: "You can jump to any level below, or discuss the levels on "
-#    adventurer_forum: "the Adventurer forum"
-#    adventurer_suffix: "."
-#    campaign_beginner: "Beginner Campaign"
-#    campaign_beginner_description: "... in which you learn the wizardry of programming."
-#    campaign_dev: "Random Harder Levels"
-#    campaign_dev_description: "... in which you learn the interface while doing something a little harder."
-#    campaign_multiplayer: "Multiplayer Arenas"
-#    campaign_multiplayer_description: "... in which you code head-to-head against other players."
-#    campaign_player_created: "Player-Created"
-#    campaign_player_created_description: "... in which you battle against the creativity of your fellow <a href=\"/contribute#artisan\">Artisan Wizards</a>."
-#    level_difficulty: "Difficulty: "
+  play:
+    choose_your_level: "Vyber si svou úroveň"
+    adventurer_prefix: "Můžeš si vybrat jakoukoliv úroveň, nebo diskutovat na "
+    adventurer_forum: " veřejném fóru"
+    adventurer_suffix: "."
+    campaign_beginner: "Úrovně pro začátečníky"
+    campaign_beginner_description: "... kde se naučíš kouzla programování."
+    campaign_dev: "Úrovně pro pokročilé"
+    campaign_dev_description: "... kde se naučíš dělat mnohem těžší věci."
+    campaign_multiplayer: "Arény pro více hráčů"
+    campaign_multiplayer_description: "... kde je tvůj kód postaven proti jiným hráčům"
+    campaign_player_created: "Úrovně vytvořené hráči"
+    campaign_player_created_description: "... kde bojuješ proti kreativitě svých kolegů  <a href=\"/contribute#artisan\">Řemeslníků</a>."
+    level_difficulty: "Obtížnost: "
 
-#  contact:
-#    contact_us: "Contact CodeCombat"
-#    welcome: "Good to hear from you! Use this form to send us email. "
-#    contribute_prefix: "If you're interested in contributing, check out our "
-#    contribute_page: "contribute page"
-#    contribute_suffix: "!"
-#    forum_prefix: "For anything public, please try "
-#    forum_page: "our forum"
-#    forum_suffix: " instead."
-#    sending: "Sending..."
-#    send: "Send Feedback"
+  contact:
+    contact_us: "Kontakt na CodeCombat"
+    welcome: "Napište nám pomocí tohoto formuláře na náš email. "
+    contribute_prefix: "Jestli se chcete podílet na vývoji, jděte prosína na "
+    contribute_page: "stránky pro přispívání"
+    contribute_suffix: "!"
+    forum_prefix: "Pro cokoliv veřejného, použijte prosím "
+    forum_page: "naše fórum"
+    forum_suffix: "."
+    sending: "Odesílání..."
+    send: "Odeslat"
 
   diplomat_suggestion:
-#    title: "Help translate CodeCombat!"
-#    sub_heading: "We need your language skills."
-    pitch_body: "We develop CodeCombat in English, but we already have players all over the world. Many of them want to play in Czech but don't speak English, so if you can speak both, please consider signing up to be a Diplomat and help translate both the CodeCombat website and all the levels into Czech."
-    missing_translations: "Until we can translate everything into Czech, you'll see English when Czech isn't available."
-#    learn_more: "Learn more about being a Diplomat"
-#    subscribe_as_diplomat: "Subscribe as a Diplomat"
+    title: "Pomozte přeložit CodeCombat!"
+    sub_heading: "Potřebujeme vaše jazykové dovednosti."
+    pitch_body: "CodeCombat je vyvíjen v angličtině, ale už mámě hráče po celém světě. Mnozí z nich chtějí hrát v češtině, ale nemluví anglicky, takže pokud umíte obojí, zvažte prosím možnost registrovat se jako Diplomat a pomozte přeložit webové stránky CodeCombat i se všemi jeho úrovněmi do češtiny."
+    missing_translations: "Pokud nebude jakýkoliv obsah přeložen do češtiny, budete vidět v angličtině, dokud nebude dostupná česká verze."
+    learn_more: "Learn more about being a Diplomat"
+    subscribe_as_diplomat: "Subscribe as a Diplomat"
 
-#  wizard_settings:
-#    title: "Wizard Settings"
-#    customize_avatar: "Customize Your Avatar"
+  wizard_settings:
+    title: "Wizard Settings"
+    customize_avatar: "Customize Your Avatar"
 
 #  account_settings:
 #    title: "Account Settings"
